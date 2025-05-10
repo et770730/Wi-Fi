@@ -29,10 +29,14 @@
       border-radius: 5px;
     }
     .notice {
-      margin-top: 2rem;
-      font-size: 1.1rem;
-      color: #444;
-      line-height: 1.6;
+      margin-top: 2.2rem;
+      font-size: 1.05rem;
+      color: #333;
+      line-height: 1.8;
+      padding: 0 1rem;
+    }
+    .notice strong {
+      color: #000;
     }
   </style>
 </head>
@@ -43,9 +47,11 @@
     <p>Wi-Fi 名稱: <code>7575 Guest</code></p>
     <p>密碼: <code>1curva-hepbYv</code></p>
   </div>
-  <p class="notice">
-    📱 iPhone：長按 QR Code 之後點「加入網路」<br>
-    🤖 Android：長按 QR Code 之後點「使用 Google 智慧搜尋圖片」
-  </p>
+  <div class="notice">
+    📱 <strong>iPhone：</strong> 長按 QR Code 之後點「加入網路」<br>
+    <span style="color: #888; font-size: 0.95rem;">(iPhone: Long press QR code and tap “Join Network”)</span><br><br>
+    🤖 <strong>Android：</strong> 長按 QR Code 之後點「使用 Google 智慧搜尋圖片」<br>
+    <span style="color: #888; font-size: 0.95rem;">(Android: Long press QR code and tap “Search image with Google Lens”)</span>
+  </div>
 </body>
 </html>
